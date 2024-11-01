@@ -1,0 +1,9 @@
+Python 3.x
+TensorFlow
+Keras
+OpenCV
+FER 
+Matplotlib
+Seaborn
+Numpy
+Pandas
