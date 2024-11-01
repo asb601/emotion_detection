@@ -31,7 +31,7 @@ Install dependencies via:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ---
 
 ## Data Preparation
@@ -58,25 +58,28 @@ To detect emotions in an image, run the `image_emotion_detection.py` script.
 Example usage:
 ```bash
 python image_emotion_detection.py --image_path "../path_to_image.png"
-
+```
 ### 2. Video Emotion Detection
 To process a video file and output an annotated video with detected emotions, run the `video_emotion_detection.py` script.
 
 Example usage:
 ```bash
 python video_emotion_detection.py --video_path "../path_to_video.mp4"
+```
 ### 3. Model Training
 To train a custom CNN model on the FER2013 dataset, run the `train_emotion_model.py` script. This script will save checkpoints and output a final trained model in the designated directory.
 
 Example usage:
 ```bash
 python train_emotion_model.py
+```
 ### 4. Confusion Matrix
 To visualize model performance across each emotion class, run the `plot_confusion_matrix.py` script.
 
 Example usage:
 ```bash
 python plot_confusion_matrix.py
+```
 ## Example Outputs
 
 ### Image Detection
