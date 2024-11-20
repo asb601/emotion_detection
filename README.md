@@ -100,16 +100,14 @@ Copy code
 
 * * * * *
 
-Example Outputs
----------------
+
+## Example Outputs
+---
 
 ### Processed Invoices (JSON Example):
 
-json
-
-Copy code
-
-`{
+```json
+{
   "Invoices": [
     {
       "invoiceNumber": "1",
@@ -137,7 +135,8 @@ Copy code
       "totalPurchaseAmount": "$100"
     }
   ]
-}`
+}
+```
 
 ### Example Workflow
 
